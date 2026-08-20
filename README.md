@@ -1,10 +1,12 @@
 # Extraordinary 3D Three.js Glassmorphism Portfolio ⚡
 
-[![Build Status](https://img.shields.io/badge/Status-Active_Development-10b981?style=for-the-badge&logo=vercel)](https://github.com/ananyamishra2025/Portfolio)
+[![Portfolio Live](https://img.shields.io/badge/Live_Portfolio-Vercel_Deployment-10b981?style=for-the-badge&logo=vercel)](https://portfolio-beta-eight-i9qxb47dp1.vercel.app)
 [![3D Engine](https://img.shields.io/badge/3D_Engine-Three.js_r128-3b82f6?style=for-the-badge&logo=three.js)](https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js)
 [![Stack](https://img.shields.io/badge/Stack-HTML5_--_CSS3_--_JavaScript_--_WebGL-8b5cf6?style=for-the-badge&logo=javascript)](https://github.com/ananyamishra2025/Portfolio)
 
 An Awwwards-inspired, high-performance **3D WebGL Glassmorphism Portfolio** architecture featuring an interactive Three.js 3D particle mesh canvas, Bento Grid layout, interactive developer terminal simulator, and real-time validated communication engines.
+
+🚀 **Live Portfolio Website**: [https://portfolio-beta-eight-i9qxb47dp1.vercel.app](https://portfolio-beta-eight-i9qxb47dp1.vercel.app)
 
 ---
 
@@ -49,6 +51,7 @@ An Awwwards-inspired, high-performance **3D WebGL Glassmorphism Portfolio** arch
 
 | Platform Name | Architecture & Features | Live Deployment | Source Code |
 | :--- | :--- | :---: | :---: |
+| 🌐 **Live Portfolio** | **Three.js WebGL, Bento Grid**, Glassmorphism, 3D Canvas | [🚀 Live App](https://portfolio-beta-eight-i9qxb47dp1.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/Portfolio) |
 | 🌾 **Agro-Mitra** | MERN Stack, AI Chatbot, Voice Support, Plant Disease Image Detection, Crop Advisory | [🚀 Live App](https://agro-mitra-ten.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/Agro_Mitra) |
 | 💬 **PulseChat** | WebSockets Event Architecture, Node.js, Express, Topic Channels, Active User Status | [🚀 Live App](https://chat-app-ananya-mishra.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/Chat-App) |
 | 🧵 **TexTrade B2B** | React / Vite, Express, MongoDB, B2B Commercial Fabric Sourcing, GOTS Certified, AI Assistant | [🚀 Live App](https://textile-marketplace-application.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/textile-marketplace-application) |
