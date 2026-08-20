@@ -3,34 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ananya Mishra - Full-Stack Developer & Software Engineer Portfolio | B.Tech CSBS Graduate & IIT Kharagpur Research Intern">
-  <meta name="keywords" content="Ananya Mishra, Full Stack Developer, Java, MERN Stack, React, Node.js, Express, MongoDB, MySQL, IIT Kharagpur, Portfolio">
+  <meta name="description" content="Ananya Mishra - Full-Stack Engineer & Software Developer Portfolio | B.Tech CSBS Graduate & IIT Kharagpur Research Intern | MERN Stack & Java Backend">
+  <meta name="keywords" content="Ananya Mishra, Software Developer, Full-Stack Engineer, Java, MERN Stack, React, Node.js, Express, MongoDB, MySQL, IIT Kharagpur, Kolkata Developer">
   <meta name="author" content="Ananya Mishra">
 
   <!-- OpenGraph Metadata -->
-  <meta property="og:title" content="Ananya Mishra | Software Developer & Full-Stack Engineer">
-  <meta property="og:description" content="Explore my full-stack web applications, Java backend tools, and research projects from IIT Kharagpur.">
+  <meta property="og:title" content="Ananya Mishra | Full-Stack Engineer & Software Developer">
+  <meta property="og:description" content="Explore my full-stack web applications, Java backend systems, and research tools built during my internship at IIT Kharagpur.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://github.com/ananyamishra2025">
 
-  <title>Ananya Mishra | Software Developer & Full-Stack Engineer</title>
+  <title>Ananya Mishra | Full-Stack Engineer & Software Developer</title>
 
   <!-- External Stylesheet -->
   <link rel="stylesheet" href="styles.css">
   
   <!-- FontAwesome Icons CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Three.js 3D WebGL Engine CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
 
-  <!-- Interactive Mouse Spotlight Follower -->
+  <!-- Interactive Fluid Mouse Spotlight Follower -->
   <div class="mouse-spotlight" id="mouse-spotlight" aria-hidden="true"></div>
 
   <!-- Header & Navigation Bar -->
   <header class="navbar-header" id="navbar-header">
     <div class="container nav-container">
       <a href="#home" class="brand-signature" aria-label="Ananya Mishra Home">
-        <span>ANANYA.DEV</span>
+        <span>Ananya Mishra</span>
         <span class="brand-badge">B.Tech CSBS</span>
       </a>
 
@@ -53,26 +56,26 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
+    <!-- Hero Section with Three.js 3D WebGL Interactive Object -->
     <section class="hero-wrapper section" id="home">
       <div class="container hero-grid-split">
         <div class="hero-text-content">
           <div class="availability-pill">
             <span class="status-dot-pulse"></span>
-            Available for Full-Time Roles | Kolkata / Remote
+            Available for Full-Time Roles | Kolkata (Priority) / Metro Cities & Remote
           </div>
 
           <h1 class="hero-heading">
-            Architecting <span class="text-gradient">Scalable Full-Stack Systems</span> & Modern Code.
+            Architecting <span class="hero-text-gradient">Scalable Full-Stack Systems</span> & Digital Products.
           </h1>
 
           <p class="hero-subtext">
-            Hi, I'm <strong>Ananya Mishra</strong> — a Computer Science & Business Systems graduate and former <strong>Research Intern at IIT Kharagpur</strong>. I specialize in Java backend automation, MERN stack web applications, and database engineering.
+            Hi, I'm <strong>Ananya Mishra</strong> — a Computer Science & Business Systems graduate and former <strong>Research Intern at IIT Kharagpur</strong>. I build high-performance MERN stack web applications, robust Java backend tools, and database architecture.
           </p>
 
           <div class="cta-button-group">
             <a href="#projects" class="btn-newera btn-sapphire">
-              <i class="fa-solid fa-code"></i> Explore Projects
+              <i class="fa-solid fa-rocket"></i> Explore Live Apps
             </a>
             <a href="https://github.com/ananyamishra2025" target="_blank" class="btn-newera btn-outline-glass">
               <i class="fa-brands fa-github"></i> GitHub Profile
@@ -80,55 +83,16 @@
           </div>
         </div>
 
-        <!-- Terminal Simulator -->
-        <div class="terminal-window">
-          <div class="terminal-header">
-            <div class="window-controls">
-              <span class="ctrl-dot ctrl-close"></span>
-              <span class="ctrl-dot ctrl-min"></span>
-              <span class="ctrl-dot ctrl-max"></span>
-            </div>
-            <div class="terminal-tabs">
-              <button class="term-tab active" data-tab="java">Java Backend</button>
-              <button class="term-tab" data-tab="mern">MERN Stack</button>
-              <button class="term-tab" data-tab="iitk">IIT Kharagpur</button>
-            </div>
+        <!-- Three.js 3D WebGL Canvas Visual Container -->
+        <div class="hero-3d-visual-container">
+          <canvas id="hero-3d-canvas"></canvas>
+
+          <!-- Floating 3D Interactive Badges -->
+          <div class="floating-3d-badge badge-top-right">
+            <i class="fa-brands fa-react" style="color: #61dafb;"></i> React & MERN Specialist
           </div>
-
-          <div class="terminal-body">
-            <!-- Snippet 1: Java -->
-            <div class="term-code-snippet active" id="snippet-java">
-              <pre><code><span class="t-cm">// Java Backend Engineering & DBMS</span>
-<span class="t-kw">public class</span> <span class="t-fn">DeveloperProfile</span> {
-  <span class="t-kw">private final String</span> <span class="t-var">name</span> = <span class="t-str">"Ananya Mishra"</span>;
-  <span class="t-kw">private final double</span> <span class="t-var">cgpa</span> = <span class="t-str">8.08</span>;
-  
-  <span class="t-kw">public void</span> <span class="t-fn">execute</span>() {
-    System.out.println(<span class="t-str">"Building High-Performance APIs"</span>);
-  }
-}</code></pre>
-            </div>
-
-            <!-- Snippet 2: MERN Stack -->
-            <div class="term-code-snippet" id="snippet-mern">
-              <pre><code><span class="t-cm">// Node.js & Express REST API Architecture</span>
-<span class="t-kw">import</span> express <span class="t-kw">from</span> <span class="t-str">'express'</span>;
-<span class="t-kw">const</span> <span class="t-var">app</span> = express();
-
-app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>, (<span class="t-var">req</span>, <span class="t-var">res</span>) => {
-  res.<span class="t-fn">json</span>({ <span class="t-var">status</span>: <span class="t-str">'Authenticated & Scalable'</span> });
-});</code></pre>
-            </div>
-
-            <!-- Snippet 3: IIT Kharagpur -->
-            <div class="term-code-snippet" id="snippet-iitk">
-              <pre><code><span class="t-cm">// IIT Kharagpur Research Internship Tool</span>
-<span class="t-kw">class</span> <span class="t-fn">DataAutomationTool</span> {
-  <span class="t-fn">processResearchData</span>() {
-    <span class="t-kw">return</span> <span class="t-str">"Automated data pipeline successfully"</span>;
-  }
-}</code></pre>
-            </div>
+          <div class="floating-3d-badge badge-bottom-left">
+            <i class="fa-brands fa-java" style="color: #f89820;"></i> Java Backend Developer
           </div>
         </div>
       </div>
@@ -139,78 +103,117 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
       <div class="container">
         <div class="section-header-center">
           <span class="section-kicker"><i class="fa-solid fa-shapes"></i> Engineering Profile</span>
-          <h2 class="section-main-title">Background & <span class="text-gradient">Bento Overview</span></h2>
-          <p style="color: var(--text-muted);">A structured breakdown of my education, technical competencies, and research background.</p>
+          <h2 class="section-main-title">Background & <span class="hero-text-gradient">Bento Architecture</span></h2>
+          <p style="color: var(--text-muted);">A structured breakdown of my education, technical competencies, and mobility.</p>
         </div>
 
         <div class="bento-grid">
           <!-- Card 1: Summary & Education -->
           <div class="bento-card bento-span-2">
             <div class="bento-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-            <h3 class="bento-title">Education & Summary</h3>
+            <h3 class="bento-title">Education & Core Summary</h3>
             <p class="bento-text">
-              B.Tech in <strong>Computer Science & Business Systems</strong> (2022 – 2026) from <strong>Gargi Memorial Institute of Technology (MAKAUT)</strong> with a CGPA of <strong>8.08 / 10</strong>. Proficient in Java, MERN stack, database modeling, and software engineering.
+              B.Tech in <strong>Computer Science & Business Systems</strong> (2022 – 2026) from <strong>Gargi Memorial Institute of Technology (MAKAUT)</strong> with a CGPA of <strong>7.70 / 10</strong>. Skilled in designing scalable full-stack web applications, Java backend tools, and MySQL/MongoDB data modeling.
             </p>
           </div>
 
           <!-- Card 2: Research Experience -->
           <div class="bento-card">
             <div class="bento-icon" style="color: var(--accent-emerald); border-color: var(--border-emerald);"><i class="fa-solid fa-flask"></i></div>
-            <h3 class="bento-title">IIT Kharagpur Intern</h3>
+            <h3 class="bento-title">IIT Kharagpur Research</h3>
             <p class="bento-text">
-              Designed a Java-based automated data processing tool for research workflows during my internship at IIT Kharagpur (Jun 2025 – Aug 2025).
+              Designed a Java-based automated data processing tool for research workflows during my internship at IIT Kharagpur (Jun 2025 – Aug 2025), reducing manual effort and authoring technical documentation.
             </p>
           </div>
 
-          <!-- Card 3: Technical Skills Cloud -->
+          <!-- Card 3: Technical Skill Cloud WITH BEAUTIFUL TECH ICONS -->
           <div class="bento-card bento-span-2">
-            <div class="bento-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <div class="bento-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
             <h3 class="bento-title">Technical Skill Cloud</h3>
             <div class="skill-badge-cloud">
-              <span class="skill-tag">Java (ES6+)</span>
-              <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">React.js</span>
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">Express.js</span>
-              <span class="skill-tag">MongoDB</span>
-              <span class="skill-tag">MySQL & SQL</span>
-              <span class="skill-tag">RESTful APIs</span>
-              <span class="skill-tag">Git & GitHub</span>
-              <span class="skill-tag">Postman</span>
-              <span class="skill-tag">IntelliJ IDEA</span>
-              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">
+                <i class="fa-brands fa-java" style="color: #f89820;"></i> Java
+              </span>
+              <span class="skill-tag">
+                <i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript (ES6+)
+              </span>
+              <span class="skill-tag">
+                <i class="fa-brands fa-react" style="color: #61dafb;"></i> React.js
+              </span>
+              <span class="skill-tag">
+                <i class="fa-brands fa-node-js" style="color: #68a063;"></i> Node.js
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-server" style="color: #a855f7;"></i> Express.js
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-leaf" style="color: #47a248;"></i> MongoDB
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-database" style="color: #00758f;"></i> MySQL & SQL
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-network-wired" style="color: #3b82f6;"></i> RESTful APIs
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> WebSockets
+              </span>
+              <span class="skill-tag">
+                <i class="fa-brands fa-git-alt" style="color: #f05032;"></i> Git & GitHub
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-paper-plane" style="color: #ff6c37;"></i> Postman
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-code" style="color: #fe315d;"></i> IntelliJ IDEA
+              </span>
+              <span class="skill-tag">
+                <i class="fa-solid fa-terminal" style="color: #007acc;"></i> VS Code
+              </span>
             </div>
           </div>
 
-          <!-- Card 4: Certifications -->
+          <!-- Card 4: Location & Flexibility -->
           <div class="bento-card">
+            <div class="bento-icon" style="color: var(--accent-sapphire);"><i class="fa-solid fa-location-dot"></i></div>
+            <h3 class="bento-title">Location & Preference</h3>
+            <p class="bento-text">
+              Based in <strong>Kolkata</strong> (Primary Priority). Open for full-time on-site roles in major Indian metro tech hubs or remote positions.
+            </p>
+          </div>
+
+          <!-- Card 5: Certifications -->
+          <div class="bento-card bento-span-3">
             <div class="bento-icon" style="color: var(--accent-amber);"><i class="fa-solid fa-award"></i></div>
-            <h3 class="bento-title">Certifications</h3>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">
-              <li><i class="fa-solid fa-check" style="color: var(--accent-amber); margin-right: 6px;"></i> NPTEL — Programming in Java</li>
-              <li><i class="fa-solid fa-check" style="color: var(--accent-amber); margin-right: 6px;"></i> MERN Training — JIS Group</li>
-              <li><i class="fa-solid fa-check" style="color: var(--accent-amber); margin-right: 6px;"></i> Web Design — GMIT</li>
-            </ul>
+            <h3 class="bento-title">Certifications & Training</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; color: var(--text-muted); font-size: 0.95rem; margin-top: 0.5rem;">
+              <div><i class="fa-solid fa-certificate" style="color: var(--accent-amber); margin-right: 6px;"></i> <strong>NPTEL</strong> — Programming in Java</div>
+              <div><i class="fa-solid fa-certificate" style="color: var(--accent-amber); margin-right: 6px;"></i> <strong>JIS Group</strong> — MERN Stack Training</div>
+              <div><i class="fa-solid fa-certificate" style="color: var(--accent-amber); margin-right: 6px;"></i> <strong>GMIT</strong> — Web Design Training</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Real Projects Showcase Section -->
+    <!-- Real Projects Showcase Section (With Direct Vercel Links) -->
     <section class="section" id="projects">
       <div class="container">
         <div class="section-header-center">
-          <span class="section-kicker"><i class="fa-solid fa-code-branch"></i> Live Projects</span>
-          <h2 class="section-main-title">GitHub <span class="text-gradient">Projects Showcase</span></h2>
-          <p style="color: var(--text-muted);">Real full-stack web applications and backend systems from my GitHub profile.</p>
+          <span class="section-kicker"><i class="fa-solid fa-laptop-code"></i> Deployed Platforms</span>
+          <h2 class="section-main-title">Featured <span class="hero-text-gradient">5 Deployed Projects</span></h2>
+          <p style="color: var(--text-muted);">Explore my live full-stack applications with direct Vercel deployments.</p>
         </div>
 
         <div class="projects-bento-grid">
-          <!-- Project 1: Agro Mitra -->
+          <!-- Project 1: Agro-Mitra -->
           <article class="bento-card project-card-newera">
             <div class="project-thumb-box">
-              <img src="assets/agro_mitra.jpg" alt="Agro Mitra MERN Web Application" class="project-thumb-img">
+              <img src="assets/agro_mitra.png" alt="Agro-Mitra Smart Agriculture System" class="project-thumb-img">
               <div class="project-overlay-actions">
+                <a href="https://agro-mitra-ten.vercel.app" target="_blank" class="btn-newera btn-live-vercel">
+                  <i class="fa-solid fa-globe"></i> Live App
+                </a>
                 <button class="btn-newera btn-sapphire open-modal-trigger" data-project="agro-mitra">
                   <i class="fa-solid fa-expand"></i> Details
                 </button>
@@ -218,102 +221,155 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
             </div>
             <div class="project-card-content">
               <div class="project-tech-tags">
-                <span class="skill-tag">MongoDB</span>
-                <span class="skill-tag">Express</span>
-                <span class="skill-tag">React</span>
-                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag"><i class="fa-solid fa-leaf" style="color: #47a248;"></i> MERN Stack</span>
+                <span class="skill-tag"><i class="fa-solid fa-robot" style="color: #60a5fa;"></i> AI Chatbot</span>
+                <span class="skill-tag"><i class="fa-solid fa-microphone" style="color: #f59e0b;"></i> Voice Support</span>
+                <span class="skill-tag"><i class="fa-solid fa-camera" style="color: #a855f7;"></i> Image Detection</span>
               </div>
-              <h3 class="project-heading">Agro Mitra</h3>
+              <h3 class="project-heading">Agro-Mitra</h3>
               <p class="project-summary">
-                MERN Stack Agricultural Platform featuring REST API endpoints, user authentication, CRUD operations, and external crop intelligence APIs.
+                Smart Agriculture Assistance System featuring crop advisory, AI chatbot, voice support, image disease detection, and learning resources.
               </p>
               <div class="project-action-row">
+                <a href="https://agro-mitra-ten.vercel.app" target="_blank" class="link-btn-text link-btn-vercel">
+                  Live Vercel Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
                 <a href="https://github.com/ananyamishra2025/Agro_Mitra" target="_blank" class="link-btn-text">
-                  GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  GitHub Code <i class="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 2: Chat-App -->
+          <!-- Project 2: PulseChat -->
           <article class="bento-card project-card-newera">
             <div class="project-thumb-box">
-              <img src="assets/chat_app.jpg" alt="Real-Time Chat Application" class="project-thumb-img">
+              <img src="assets/pulse_chat.png" alt="PulseChat Real-Time Workspace" class="project-thumb-img">
               <div class="project-overlay-actions">
-                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="chat-app">
+                <a href="https://chat-app-ananya-mishra.vercel.app" target="_blank" class="btn-newera btn-live-vercel">
+                  <i class="fa-solid fa-globe"></i> Live App
+                </a>
+                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="pulse-chat">
                   <i class="fa-solid fa-expand"></i> Details
                 </button>
               </div>
             </div>
             <div class="project-card-content">
               <div class="project-tech-tags">
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">WebSockets</span>
+                <span class="skill-tag"><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> WebSockets</span>
+                <span class="skill-tag"><i class="fa-brands fa-node-js" style="color: #68a063;"></i> Node.js</span>
+                <span class="skill-tag"><i class="fa-solid fa-hashtag" style="color: #3b82f6;"></i> Channels</span>
+                <span class="skill-tag"><i class="fa-solid fa-user-check" style="color: #10b981;"></i> Active Status</span>
               </div>
-              <h3 class="project-heading">Chat App</h3>
+              <h3 class="project-heading">PulseChat</h3>
               <p class="project-summary">
-                Real-time messaging application supporting instant message delivery, online contact status, and clean glassmorphism chat UI.
+                Real-Time Workspace & Messaging Platform supporting topic channels (#general, #tech-talk, #announcements) and online user presence tracking.
               </p>
               <div class="project-action-row">
+                <a href="https://chat-app-ananya-mishra.vercel.app" target="_blank" class="link-btn-text link-btn-vercel">
+                  Live Vercel Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
                 <a href="https://github.com/ananyamishra2025/Chat-App" target="_blank" class="link-btn-text">
-                  GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  GitHub Code <i class="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 3: Trader Risk Dashboard -->
+          <!-- Project 3: TexTrade B2B -->
           <article class="bento-card project-card-newera">
             <div class="project-thumb-box">
-              <img src="assets/trader_risk.jpg" alt="Trader Risk Dashboard" class="project-thumb-img">
+              <img src="assets/textrade.png" alt="TexTrade B2B Fabric Marketplace" class="project-thumb-img">
               <div class="project-overlay-actions">
-                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="trader-risk">
+                <a href="https://textile-marketplace-application.vercel.app" target="_blank" class="btn-newera btn-live-vercel">
+                  <i class="fa-solid fa-globe"></i> Live App
+                </a>
+                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="textrade">
                   <i class="fa-solid fa-expand"></i> Details
                 </button>
               </div>
             </div>
             <div class="project-card-content">
               <div class="project-tech-tags">
-                <span class="skill-tag">React.js</span>
-                <span class="skill-tag">Analytics</span>
-                <span class="skill-tag">Financial UI</span>
+                <span class="skill-tag"><i class="fa-brands fa-react" style="color: #61dafb;"></i> React / Vite</span>
+                <span class="skill-tag"><i class="fa-solid fa-server" style="color: #a855f7;"></i> Express</span>
+                <span class="skill-tag"><i class="fa-solid fa-leaf" style="color: #47a248;"></i> MongoDB</span>
+                <span class="skill-tag"><i class="fa-solid fa-robot" style="color: #3b82f6;"></i> AI Assistant</span>
               </div>
-              <h3 class="project-heading">Trader Risk Dashboard</h3>
+              <h3 class="project-heading">TexTrade B2B</h3>
               <p class="project-summary">
-                Interactive financial risk management dashboard displaying stock market candles, volatility metrics, and portfolio risk indicators.
+                Next-Generation B2B Commercial Fabric Sourcing Platform featuring GOTS certified organic fabrics, volume pricing, GSM filters, and AI assistant.
               </p>
               <div class="project-action-row">
+                <a href="https://textile-marketplace-application.vercel.app" target="_blank" class="link-btn-text link-btn-vercel">
+                  Live Vercel Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="https://github.com/ananyamishra2025/textile-marketplace-application" target="_blank" class="link-btn-text">
+                  GitHub Code <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Tradescape Risk Dashboard -->
+          <article class="bento-card project-card-newera">
+            <div class="project-thumb-box">
+              <img src="assets/tradescape.png" alt="Tradescape Trader Risk Dashboard" class="project-thumb-img">
+              <div class="project-overlay-actions">
+                <a href="https://trader-risk-dashboard-six.vercel.app" target="_blank" class="btn-newera btn-live-vercel">
+                  <i class="fa-solid fa-globe"></i> Live App
+                </a>
+                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="tradescape">
+                  <i class="fa-solid fa-expand"></i> Details
+                </button>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-tech-tags">
+                <span class="skill-tag"><i class="fa-brands fa-react" style="color: #61dafb;"></i> React (JSX)</span>
+                <span class="skill-tag"><i class="fa-solid fa-shield-halved" style="color: #10b981;"></i> Risk Engine</span>
+                <span class="skill-tag"><i class="fa-solid fa-chart-line" style="color: #3b82f6;"></i> Equity Curve</span>
+                <span class="skill-tag"><i class="fa-solid fa-list-check" style="color: #f59e0b;"></i> Trade History</span>
+              </div>
+              <h3 class="project-heading">Tradescape Risk Dashboard</h3>
+              <p class="project-summary">
+                Proprietary Trader Risk & Drawdown Monitor tracking max drawdown limits, daily loss monitors, interactive equity curves, and trade execution logs.
+              </p>
+              <div class="project-action-row">
+                <a href="https://trader-risk-dashboard-six.vercel.app" target="_blank" class="link-btn-text link-btn-vercel">
+                  Live Vercel Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
                 <a href="https://github.com/ananyamishra2025/trader-risk-dashboard" target="_blank" class="link-btn-text">
-                  GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  GitHub Code <i class="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 4: Lead Management System -->
+          <!-- Project 5: Focus Task App -->
           <article class="bento-card project-card-newera">
             <div class="project-thumb-box">
-              <img src="assets/lead_mgmt.jpg" alt="Lead Management System" class="project-thumb-img">
+              <img src="assets/focus_app.png" alt="Focus Productivity & Task App" class="project-thumb-img">
               <div class="project-overlay-actions">
-                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="lead-mgmt">
+                <button class="btn-newera btn-sapphire open-modal-trigger" data-project="focus-app">
                   <i class="fa-solid fa-expand"></i> Details
                 </button>
               </div>
             </div>
             <div class="project-card-content">
               <div class="project-tech-tags">
-                <span class="skill-tag">Full-Stack</span>
-                <span class="skill-tag">CRM</span>
-                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag"><i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript</span>
+                <span class="skill-tag"><i class="fa-solid fa-fire" style="color: #f97316;"></i> Task Streaks</span>
+                <span class="skill-tag"><i class="fa-solid fa-filter" style="color: #3b82f6;"></i> Priority Filters</span>
+                <span class="skill-tag"><i class="fa-solid fa-bars-staggered" style="color: #10b981;"></i> Subtasks</span>
               </div>
-              <h3 class="project-heading">Lead Management System</h3>
+              <h3 class="project-heading">Focus</h3>
               <p class="project-summary">
-                Full-stack CRM lead tracking software managing pipeline stages, customer status cards, and real-time sales funnel analytics.
+                Productivity & Task Management Web Application with task streaks, priority filters (High, Medium, Low), subtask progress tracking, and evening reflection.
               </p>
               <div class="project-action-row">
-                <a href="https://github.com/ananyamishra2025/lead-management-system" target="_blank" class="link-btn-text">
-                  GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <a href="https://github.com/ananyamishra2025" target="_blank" class="link-btn-text">
+                  GitHub Profile <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
@@ -327,27 +383,27 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
       <div class="container">
         <div class="section-header-center">
           <span class="section-kicker"><i class="fa-solid fa-briefcase"></i> Experience</span>
-          <h2 class="section-main-title">Internship & <span class="text-gradient">Milestones</span></h2>
-          <p style="color: var(--text-muted);">Hands-on research and software engineering internships.</p>
+          <h2 class="section-main-title">Internship & <span class="hero-text-gradient">Milestones</span></h2>
+          <p style="color: var(--text-muted);">Hands-on software engineering and research internships.</p>
         </div>
 
-        <div class="bento-card" style="max-width: 800px; margin: 0 auto;">
+        <div class="bento-card" style="max-width: 820px; margin: 0 auto;">
           <div class="timeline-vertical">
             <div class="timeline-node">
               <div class="timeline-marker"></div>
               <div class="timeline-period">Jun 2025 – Aug 2025</div>
-              <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;">Research Intern @ IIT Kharagpur</h3>
+              <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">Research Intern @ IIT Kharagpur</h3>
               <p style="color: var(--text-muted); font-size: 0.95rem;">
-                Designed and developed a Java-based software tool to automate data processing for research projects, reducing manual effort and authoring technical documentation.
+                Designed and developed a Java-based software tool to automate data processing for an ongoing research project, improving workflow efficiency and authoring technical documentation.
               </p>
             </div>
 
             <div class="timeline-node">
               <div class="timeline-marker" style="background: var(--accent-emerald); box-shadow: 0 0 12px var(--accent-emerald);"></div>
               <div class="timeline-period">Aug 2024 – Sep 2024</div>
-              <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;">HR Intern @ CINCOONI</h3>
+              <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">HR Intern @ CINCOONI</h3>
               <p style="color: var(--text-muted); font-size: 0.95rem;">
-                Supported full-cycle recruitment coordination, candidate sourcing, resume screening, interview scheduling, and onboarding documentation.
+                Supported recruitment coordination across candidate sourcing, resume screening, interview scheduling, and candidate record documentation.
               </p>
             </div>
           </div>
@@ -360,8 +416,8 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
       <div class="container">
         <div class="section-header-center">
           <span class="section-kicker"><i class="fa-solid fa-paper-plane"></i> Contact Me</span>
-          <h2 class="section-main-title">Let's Build <span class="text-gradient">Something Great</span></h2>
-          <p style="color: var(--text-muted);">Available for full-time software developer opportunities and technical projects.</p>
+          <h2 class="section-main-title">Let's Build <span class="hero-text-gradient">Something Great</span></h2>
+          <p style="color: var(--text-muted);">Available for full-time software engineering roles. Kolkata preference | Open pan-India & remote.</p>
         </div>
 
         <div class="contact-layout-grid">
@@ -389,9 +445,17 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
                 <p style="color: var(--text-muted); font-size: 0.9rem;">linkedin.com/in/ananya-mishra04</p>
               </div>
             </div>
+
+            <div class="bento-card contact-item-card">
+              <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <h4 style="font-size: 1rem;">GitHub Profile</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">github.com/ananyamishra2025</p>
+              </div>
+            </div>
           </div>
 
-          <!-- Contact Form with Validation -->
+          <!-- Contact Form with JS Validation -->
           <div class="bento-card">
             <form id="portfolio-contact-form" class="contact-form-wrapper" novalidate>
               <div class="field-group">
@@ -408,7 +472,7 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
 
               <div class="field-group">
                 <label for="c-message" class="field-label">Message *</label>
-                <textarea id="c-message" name="message" class="field-input" style="min-height: 120px;" placeholder="Hello Ananya, I'd like to discuss a project..." required minlength="10"></textarea>
+                <textarea id="c-message" name="message" class="field-input" style="min-height: 120px;" placeholder="Hello Ananya, I would like to discuss a job opportunity..." required minlength="10"></textarea>
                 <div class="error-text"><i class="fa-solid fa-triangle-exclamation"></i> Message must be at least 10 characters.</div>
               </div>
 
@@ -422,15 +486,15 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
     </section>
   </main>
 
-  <!-- Project Detail Modal -->
+  <!-- Project Detail Modal Popup -->
   <div class="modal-overlay" id="project-modal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-top-bar">
-        <h3 id="modal-title" class="text-gradient">Project Details</h3>
+        <h3 id="modal-title" class="hero-text-gradient">Project Details</h3>
         <button class="modal-close" id="modal-close-btn" aria-label="Close Modal"><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-content-area" id="modal-content-area">
-        <!-- Injected via JavaScript -->
+        <!-- Injected dynamically via script.js -->
       </div>
     </div>
   </div>
@@ -450,7 +514,7 @@ app.<span class="t-fn">post</span>(<span class="t-str">'/api/v1/projects'</span>
   <footer class="footer-bar">
     <div class="container">
       <p style="color: var(--text-muted); font-size: 0.9rem;">
-        &copy; 2026 <strong>Ananya Mishra</strong>. All rights reserved. Developed with passion & precision.
+        &copy; 2026 <strong>Ananya Mishra</strong>. All rights reserved. Built with precision & passion.
       </p>
     </div>
   </footer>
