@@ -230,16 +230,16 @@ function initProjectModals() {
       repoUrl: 'https://github.com/ananyamishra2025/trader-risk-dashboard'
     },
     'focus-app': {
-      title: 'Focus — Productivity & Task Management System',
+      title: 'Focus — Productivity & To-Do List Application',
       image: 'assets/focus_app.png',
       tags: ['JavaScript', 'Task Streaks', 'Priority Filters', 'Subtasks', 'Focus Mode'],
-      summary: 'An elegant productivity application featuring task streaks, priority filtering (High, Medium, Low), subtask progress meters, and evening reflection checklists.',
+      summary: 'An elegant productivity & To-Do List application featuring task streaks, priority filtering (High, Medium, Low), subtask progress meters, and evening reflection checklists.',
       highlights: [
         'Task streak tracker & category filtering (Work, Shopping, Personal)',
         'Subtask progress bars & priority tags with one-click completion',
         'Evening reflection focus mode for daily goal management'
       ],
-      vercelUrl: '',
+      vercelUrl: 'https://to-do-list-two-xi-63.vercel.app',
       repoUrl: 'https://github.com/ananyamishra2025'
     }
   };

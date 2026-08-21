@@ -56,7 +56,7 @@ An Awwwards-inspired, high-performance **3D WebGL Glassmorphism Portfolio** arch
 | 💬 **PulseChat** | WebSockets Event Architecture, Node.js, Express, Topic Channels, Active User Status | [🚀 Live App](https://chat-app-ananya-mishra.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/Chat-App) |
 | 🧵 **TexTrade B2B** | React / Vite, Express, MongoDB, B2B Commercial Fabric Sourcing, GOTS Certified, AI Assistant | [🚀 Live App](https://textile-marketplace-application.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/textile-marketplace-application) |
 | 📈 **Tradescape Risk Dashboard** | React (JSX), Risk Calculations Engine, Drawdown Trajectory Curve, Realized P&L Logs | [🚀 Live App](https://trader-risk-dashboard-six.vercel.app) | [📁 Repository](https://github.com/ananyamishra2025/trader-risk-dashboard) |
-| 🎯 **Focus** | JavaScript, Task Streaks, Category Priority Filtering (High/Med/Low), Subtask Progress Meters | — | [📁 Profile](https://github.com/ananyamishra2025) |
+| 🎯 **Focus (To-Do List)** | JavaScript, Task Streaks, Category Priority Filtering (High/Med/Low), Subtask Progress Meters | [🚀 Live App](https://to-do-list-two-xi-63.vercel.app) | [📁 Profile](https://github.com/ananyamishra2025) |
 
 ---
 
